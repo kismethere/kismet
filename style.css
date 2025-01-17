@@ -1,0 +1,83 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Заголовок сайта */
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #2c3e50; /* Темный синий */
+    color: white;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  
+  /* Меню */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #34495e; /* Темный серо-синий */
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: block;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background: #1abc9c; /* Бирюзовый акцент */
+  }
+  
+  /* Контент */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 1.5rem;
+    background: #ecf0f1; /* Светло-серый фон */
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Подвал */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2c3e50;
+    color: white;
+    font-size: 0.9rem;
+  }
